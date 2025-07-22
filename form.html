@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./aboutme.html">Über mich</a>
+      <a href="./garten_party.html">Gartenparty</a>
+      <a href="./form.html">Anmeldung</a>
+    </nav>
+    <header>
+      <h1>Anmeldung zur Academy</h1>
+    </header>
+
+    <form action="http://backend.quatsch">
+      <h2>Persönliche Informationen</h2>
+
+      <label for="first_name">Vorname:</label>
+      <p><input type="text" name="first_name" id="first_name" /></p>
+
+      <label for="last_name">Nachname:</label>
+      <p><input type="text" name="last_name" id="last_name" /></p>
+
+      <label for="email">Email:</label>
+      <p><input type="email" name="email" id="email" /></p>
+
+      <label for="password">Passwort:</label>
+      <p><input type="password" name="password" id="password" /></p>
+
+      <label for="bday">Geburtstag:</label>
+      <p><input type="date" name="bday" id="bday" /></p>
+
+      <label for="tel">Telefon:</label>
+      <p><input type="tel" name="tel" id="tel" /></p>
+
+      <p>Augenfarbe:</p>
+
+        <input type="radio" name="eyecolor" id="blueeyes" value="blue"/>
+        <label for="blueeyes">Blau</label>
+
+        <input type="radio" name="eyecolor" id="greeneyes" value="green"/>
+        <label for="greeneyes">Grün</label>
+
+        <input type="radio" name="eyecolor" id="browneyes" value="brown"/>
+        <label for="browneyes">Braun</label>
+
+      <p>Haustiere:</p>
+
+        <input type="checkbox" name="dog" id="dog">
+        <label for="dog">Hund</label>
+
+        <input type="checkbox" name="cat" id="cat">
+        <label for="cat">Katze</label>
+
+        <input type="checkbox" name="fish" id="fish">
+        <label for="fish">Goldfisch</label>
+
+        <br>
+        <label for="auto">Auto:</label>
+        <select name="auto" id="auto">
+            <option value="audi">Audi</option>
+            <option value="bmw">BMW</option>
+            <option value="crysler">Crysler</option>
+        </select>
+
+
+      <label for="comment">Type your comment here:</label> <br />
+      <textarea id="comment" name="comment" rows="10" cols="50">
+My multi-line, plain-text comment.
+      </textarea>
+
+      <br />
+      <label for="attachment">Attachment:</label><br />
+      <input type="file" id="attachment" name="attachment" /><br />
+
+      <p><input type="reset" value="Formular löschen" /></p>
+      <p><input type="submit" value="Absenden" /></p>
+    </form>
+
+  </body>
+</html>
+
+
+<!-- http://backend.quatsch/?fullname=dsada -->
