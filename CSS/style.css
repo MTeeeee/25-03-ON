@@ -3,13 +3,35 @@
    und größer dargestellt
     */
 
-* {
-  background-color: lightblue;
+
+
+body{
+
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
+
+.star {
+  border: 2px solid blueviolet;
+  background-color: black;
+  padding: 5px;
+  margin: 5px;
+}
+
+#star_box {
+  display: flex;
+  justify-content: space-between;
+}
+
 p {
   color: rgb(55, 0, 255);
   font-size: larger;
+  border: solid;
+  padding: 10px 50px0;
+  margin: 50px;
+  font-family: Pacifico;
 }
+
 h2 {
   color: darkblue;
 }
@@ -21,11 +43,11 @@ h2 {
 
 .fresh {
   font-family: Lato, Arial, sans-serif;
-  color: rgb(255, 98, 0);
+  color: rgba(255, 98, 0, 0.632);
 }
 
 #music_list {
-  color: red;
+  color: rgb(106, 142, 105);
   font-weight: bold;
 }
 
