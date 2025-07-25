@@ -11,6 +11,16 @@ body{
   background-size: 100%;
 }
 
+#cat {
+  height: 50vw;
+}
+
+@media only screen and (max-width: 500px) {
+  #cat {
+    height: 100vw;
+  }
+}
+
 .star {
   border: 2px solid blueviolet;
   background-color: black;
@@ -18,9 +28,15 @@ body{
   margin: 5px;
 }
 
-#star_box {
+#sky {
+  background-color: darkblue;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#star_box_1, #star_box_2, #star_box_3 {
+  display: flex;
+  justify-content: center;
 }
 
 p {
